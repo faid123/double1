@@ -17,5 +17,6 @@ public class AppTest
     {
         assertTrue( true );
         System.out.println("a");
+        System.out.println("b");
     }
 }
