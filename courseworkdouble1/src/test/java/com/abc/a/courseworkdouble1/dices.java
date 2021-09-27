@@ -26,7 +26,7 @@ public class dices {
 		
 		System.out.println("Dice 1: " + value1);
 		System.out.println("Dice 2: " + value2);
-		System.out.println("Total Rolled: " + (value1 + value2));
+		System.out.println("Total Rolled Value: " + (value1 + value2));
 	}
 
 }
