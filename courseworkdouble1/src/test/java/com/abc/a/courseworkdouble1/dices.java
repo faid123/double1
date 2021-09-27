@@ -28,5 +28,17 @@ public class dices {
 		System.out.println("Dice 2: " + value2);
 		System.out.println("Total Rolled Value: " + (value1 + value2));
 	}
+	
+	public static void rollDice()
+	{
+		int min = 1;
+		int max = 6;
+		
+		Random random = new Random();
+		
+		int value = random.nextInt(max + min) + min;
+		
+		System.out.println("Dice 1: " + value);
+	}
 
 }
