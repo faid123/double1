@@ -5,14 +5,13 @@ import java.util.Scanner;
 
 public class Main {
 static int [] nums;
-// nvm u edit ady then u do this way
-// go git repositories
-// under local/branch1
-// right click
-// then click push
-// remember to save this file
-// cb the vpn like shyt
-
+// edit ur code
+// save it
+// go inside Git Staging
+// drag and drop from unstaged changes to staged changes
+// write commit message
+// press commit and push
+// u need to ss the process
 
 public static void main(String[] args) {
 nums = new int[]{3,2,4,5,6,6,7,8,9,9,0,9};
