@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Main {
 static int [] nums;
-// first u edit some shit then u go here Git Staging
-// u need to save first
-// go to the unstaged changes
-// drag into stage changes
-// then write commit msg
-// then just click the commit and push button
-// wait ah
+// nvm u edit ady then u do this way
+// go git repositories
+// under local/branch1
+// right click
+// then click push
+// remember to save this file
+// cb the vpn like shyt
 
 
 public static void main(String[] args) {
