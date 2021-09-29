@@ -11,6 +11,7 @@ static int [] nums;
 // drag into stage changes
 // then write commit msg
 // then just click the commit and push button
+// wait ah
 
 
 public static void main(String[] args) {
