@@ -36,6 +36,7 @@ System.out.print("Not present in the array!");
 }
 else
 System.out.print("Number found at index "+result);
+  System.out.print("SUCCESS");
 }
 
 private static int Linear_Search(int [] nums,int search)
