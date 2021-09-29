@@ -19,6 +19,7 @@ System.out.print("Number found at index "+result);
   System.out.print("We found the number");
 }
 
+
 private static int Linear_Search(int [] nums,int search)
 {
 for(int i=0;i<nums.length;i++)
@@ -26,11 +27,3 @@ for(int i=0;i<nums.length;i++)
 if(nums[i]==search)
 {
 return i;
-
-}
-}
-return -1;
-
-}
-}
-
