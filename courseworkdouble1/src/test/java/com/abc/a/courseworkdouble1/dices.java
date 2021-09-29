@@ -33,9 +33,35 @@ if(nums[i]==search)
 {
 return i;
 
+
 }
 }
 return -1;
+
+		int value1 = random1.nextInt(max1 + min1) + min1;
+		int value2 = random2.nextInt(max2 + min2) + min2;
+		
+		System.out.println("Dice 1: " + value1);
+		System.out.println("Dice 2: " + value2);
+		System.out.println("Total Rolled Value: " + (value1 + value2));
+	}
+	
+	public static void rollDice()
+	{
+		int min = 1;
+		int max = 6;
+		
+		Random random = new Random();
+		
+		int value = random.nextInt(max + min) + min;
+		
+		System.out.println("Dice 1: " + value);
+	}
+
+  
+  // see it's my old code of dice.java
+  // u can just delete the whole shit 
+  // or just the ones with <<<< or >>>> or ==== or any weird non coding stuff
 
 }
 }
