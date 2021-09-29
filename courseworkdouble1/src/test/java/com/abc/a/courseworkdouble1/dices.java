@@ -14,6 +14,7 @@ public class dices {
 	{
 		int min1 = 1;
 		int max1 = 6;
+		int mx3=100;
 		
 		int min2 = 1;
 		int max2 = 6;
