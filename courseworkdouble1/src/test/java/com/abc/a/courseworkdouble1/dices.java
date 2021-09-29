@@ -1,32 +1,40 @@
 package com.abc.a.courseworkdouble1;
-import java.util.Random;
+import java.util.Scanner;
 
-public class dices {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		rollTwoDice();
-		System.out.println("Dice have been rolled successfully!");
 
-	}
-	
-	public static void rollTwoDice()
-	{
-		int min1 = 1;
-		int max1 = 6;
-		
-		int min2 = 1;
-		int max2 = 6;
+public class Main {
+static int [] nums;
+// first u edit some shit then u go here Git Staging
+// u need to save first
+// go to the unstaged changes
+// drag into stage changes
+// then write commit msg
+// then just click the commit and push button
 
-		Random random1 = new Random();
-		Random random2 = new Random();
 
-		int value1 = random1.nextInt(max1 + min1) + min1;
-		int value2 = random2.nextInt(max2 + min2) + min2;
-		
-		System.out.println("Dice 1: " + value1);
-		System.out.println("Dice 2: " + value2);
-		System.out.println("Total Rolled Value: " + (value1 + value2));
-	}
+public static void main(String[] args) {
+nums = new int[]{3,2,4,5,6,6,7,8,9,9,0,9};
+int result = Linear_Search(nums, 9);
+if(result == -1)
+{
+System.out.print("Not present in the array!");
+}
+else
+System.out.print("Number found at index "+result);
+}
 
+private static int Linear_Search(int [] nums,int search)
+{
+for(int i=0;i<nums.length;i++)
+{
+if(nums[i]==search)
+{
+return i;
+
+}
+}
+return -1;
+
+}
 }
