@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package com.abc.a.courseworkdouble1;
 import java.util.Scanner;
 
@@ -33,7 +33,7 @@ return -1;
 
 }
 }
-=======
+
 package com.abc.a.courseworkdouble1;
 import java.util.Scanner;
 
@@ -101,4 +101,3 @@ return -1;
 
 }
 }
->>>>>>> branch 'branch1' of https://github.com/faid123/double1
